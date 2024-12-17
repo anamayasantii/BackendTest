@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/books', [BookController::class, 'index'])->name('books.index');
+Route::get('/', [BookController::class, 'index'])->name('books.index');
 
 Route::get('/popular-authors', [AuthorController::class, 'popularAuthors'])->name('authors.popular');
 

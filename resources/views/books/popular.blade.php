@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <a href="/books" class="btn btn-success">Back</a>
+        <a href="/" class="btn btn-success">Back</a>
         <h1 class="text-center mb-4">10 Penulis Terpopuler</h1>
         <table class="table table-striped table-bordered">
             <thead>
